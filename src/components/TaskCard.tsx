@@ -166,7 +166,7 @@ const TaskCard: React.FC<TaskCardProps> = ({
                 <div
                   className={cn(
                     'flex items-center gap-1 text-xs text-muted-foreground',
-                    getTaskDueDateColorClass(task.due_date, task.completed),
+                    getTaskDueDateColorClass(task.due_date, task.completed ?? false),
                   )}
                 >
                   <CalendarDays size={14} />

@@ -9,7 +9,7 @@
  */
 import { databases, Query } from '@/lib/appwrite';
 import { startOfToday, startOfTomorrow } from 'date-fns';
-import { data, redirect } from 'react-router';
+import { redirect } from 'react-router';
 
 /**
  * Custom modules

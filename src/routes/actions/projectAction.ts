@@ -12,7 +12,7 @@ import { redirect } from 'react-router';
 /**
  * Custom modules
  */
-import { databases } from '@/lib/appWrite';
+import { databases } from '@/lib/appwrite';
 import { generateID, getUserId } from '@/lib/utils';
 import { generateProjectTasks } from '@/api/googleAi';
 

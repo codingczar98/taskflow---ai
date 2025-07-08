@@ -7,7 +7,7 @@
 /**
  * Custom modules
  */
-import { databases } from '@/lib/appWrite';
+import { databases } from '@/lib/appwrite';
 import { generateID, getUserId } from '@/lib/utils';
 
 /**
@@ -15,7 +15,6 @@ import { generateID, getUserId } from '@/lib/utils';
  */
 import type { ActionFunction } from 'react-router';
 import type { Task } from '@/types';
-import { use } from 'react';
 
 /**
  * Environment variables

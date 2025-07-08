@@ -88,7 +88,7 @@ const ProjectDetailPage = () => {
               id={$id}
               content={content}
               completed={completed}
-              dueDate={due_date}
+              duedate={due_date}
               project={project}
             />
           ))}

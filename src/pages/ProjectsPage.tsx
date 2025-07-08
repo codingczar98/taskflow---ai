@@ -52,7 +52,7 @@ const ProjectsPage = () => {
 
   const [searchingState, setSearchingState] = useState<SearchingState>('idle');
 
-  const searchTimeout = useRef<NodeJS.Timeout>();
+  const searchTimeout = useRef<NodeJS.Timeout | null>(null);
 
   const handleProjectSearch = useCallback(
     (e: React.ChangeEvent<HTMLInputElement>) => {

@@ -7,7 +7,7 @@
 /**
  * Node modules
  */
-import { databases } from "@/lib/appWrite"
+import { databases } from "@/lib/appwrite"
 
 /**
  * Custom modules

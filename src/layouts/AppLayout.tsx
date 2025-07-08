@@ -27,7 +27,7 @@ import { AppLoaderData } from '@/routes/loaders/appLoader';
 const AppLayout = () => {
   const navigation = useNavigation();
   const { projects } = useLoaderData<AppLoaderData>();
-  console.log(projects);
+  // console.log(projects);
 
   const isLoading = navigation.state === 'loading' && !navigation.formData;
   return (
